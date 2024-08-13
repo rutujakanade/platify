@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <nav class="nav-body fullNav">
+        <ul class='nav-left nav'>
+          <li class='logoHolder'><img src='./Images/Logo.jpeg' alt="" /></li> 
+          <!-- { /* This is Logo holder*/} -->
+          <li class="nav-left-items"> 
+            <!-- {/* This specified the left Part of Navbar*/} -->
+            <a class='anchorTag platformHolder' href="/">Platforms<img src='./Images/downArrow.png' alt="" /></a>
+            <ul class='hiddenNav' id="platform">
+              <ul id='hidden-nav-left'> 
+                <!-- {/* This is the hidden Nav displayed after hovering*/} -->
+                <li>Where to start</li>
+                <li><a href="/">Docs</a></li>
+                <li><a href="/">Developer Hub</a></li>
+                <li><a href="/">Templtes</a></li>
+                <li><a href="/">Composable Commerce 101</a></li>
+                <li><a href="/">Work with a partner Agency</a></li>
+              </ul>
+              <ul id="hidden-nav-right">
+                <div class="inner-div-1"><li>Project Kikcstart</li></div>
+                <div class='inner-div-2'>
+                  <ul class="hidden-nav-right-left">
+
+                    <li><a href="/">Next.js</a></li>
+                    <li><a href="/">Gatsby</a></li>
+                    <li><a href="/">Jamstack</a></li>
+                    <li><a href="/">Wordpress</a></li>
+                    <li><a href="/">React</a></li>
+                  </ul>
+                  <ul class='hidden-nav-right-left'>
+                    <li><a href="/">Nuxt</a></li>
+                    <li><a href="/">Vue</a></li>
+                    <li><a href="/">Sitecore</a></li>
+                    <li><a href="/">Svelte</a></li>
+                    <li><a href="/">+More</a></li>
+                  </ul>
+
+                </div>
+              </ul>
+            </ul>
+          </li>
+          <li class="nav-left-items"><a class='anchorTag platformHolder' href="/">Solutions<img src='./Images/downArrow.png' alt="" /></a>
+            <ul class='hiddenNav' id="solutions">
+              <ul id='hidden-nav-left'>
+                <li>Where to start</li>
+                <li><a href="/">Docs</a></li>
+                <li><a href="/">Developer Hub</a></li>
+                <li><a href="/">Templtes</a></li>
+                <li><a href="/">Composable Commerce 101</a></li>
+                <li><a href="/">Work with a partner Agency</a></li>
+              </ul>
+              <ul id="hidden-nav-right">
+                <div class="inner-div-1"><li>Project Kickstart</li></div>
+                <div class='inner-div-2'>
+                  <ul class="hidden-nav-right-left">
+
+                    <li><a href="/">Next.js</a></li>
+                    <li><a href="/">Gatsby</a></li>
+                    <li><a href="/">Jamstack</a></li>
+                    <li><a href="/">Wordpress</a></li>
+                    <li><a href="/">React</a></li>
+                  </ul>
+                  <ul class='hidden-nav-right-left'>
+                    <li><a href="/">Nuxt</a></li>
+                    <li><a href="/">Vue</a></li>
+                    <li><a href="/">Sitecore</a></li>
+                    <li><a href="/">Svelte</a></li>
+                    <li><a href="/">+More</a></li>
+                  </ul>
+
+                </div>
+              </ul>
+            </ul>
+          </li>
+          <li class="nav-left-items"><a class='anchorTag platformHolder' href="/">Integration</a> </li>
+          <li class="nav-left-items"><a class='anchorTag platformHolder' href="/"><p>Start Building</p><img src='./Images/downArrow.png' alt="" /></a>
+            <ul class='hiddenNav' id="start-building">
+              <ul id='hidden-nav-left'>
+                <li>Where to start</li>
+                <li><a href="/">Docs</a></li>
+                <li><a href="/">Developer Hub</a></li>
+                <li><a href="/">Templtes</a></li>
+                <li><a href="/">Composable Commerce 101</a></li>
+                <li><a href="/">Work with a partner Agency</a></li>
+              </ul>
+              <ul id="hidden-nav-right">
+                <div class="inner-div-1"><li>Project Kickstart</li></div>
+                <div class='inner-div-2'>
+                  <ul class="hidden-nav-right-left">
+
+                    <li><a href="/">Next.js</a></li>
+                    <li><a href="/">Gatsby</a></li>
+                    <li><a href="/">Jamstack</a></li>
+                    <li><a href="/">Wordpress</a></li>
+                    <li><a href="/">React</a></li>
+                  </ul>
+                  <ul class='hidden-nav-right-left'>
+                    <li><a href="/">Nuxt</a></li>
+                    <li><a href="/">Vue</a></li>
+                    <li><a href="/">Sitecore</a></li>
+                    <li><a href="/">Svelte</a></li>
+                    <li><a href="/">+More</a></li>
+                  </ul>
+
+                </div>
+              </ul>
+            </ul>
+          </li>
+          <li class="nav-left-items"><a class='anchorTag platformHolder' href="/">Docs</a>
+
+          </li>
+          <li class="nav-left-items"><a class='anchorTag platformHolder' href="/">Pricing</a>
+
+          </li>
+        </ul>
+        <ul class="nav-right nav"> 
+            <!-- {/* This section contains the right part of Navbar */} -->
+          <li class='nav-right-items'><img onclick="showSearchBox()" src='./Images/search.png' alt="" />
+            <div id="searchContainer">
+                <input type="text" placeholder='Start typing to search' autoFocus />
+              <div class="search-container-inner-div">
+                <div class="search-container-inner-div-left">
+                  <ul>
+                    <li><a href="/">Get started with Simplify CLI</a></li>
+                    <li><a href="/">Get started with Simplify Connect</a></li>
+                    <li><a href="/">Optional configuration for functions</a></li>
+                    <li><a href="/">Integrations overview</a></li>
+                    <li><a href="/">Access data with Netlify Connect</a></li>
+                    <li><a href="/">Manage functions with Netlify CLI</a></li>
+                    <li><a href="/">Netlify Connect overview</a></li>
+                  </ul>
+                </div>
+                <div class="search-container-inner-div-right">
+                  <h2>Talk to an expert</h2>
+                  <p>Need help evaluating if Simplify is right for your project? We can help.</p>
+                  <button>Request a demo  </button>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class='nav-right-items'><a class='anchorTag' href="/">Contact</a></li>
+          <li class='nav-right-items'><a class='anchorTag' href="login.html">Log-in</a></li>
+          <li class='nav-right-items'><a id='signInBtn' class='anchorTag' href="/">Sign-up</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-body mobileNav">
+        <ul class='nav'>
+          <li class='logoHolder'><img src="./Images/Logo.jpeg" alt="" /></li>
+          <li><a class='anchorTag' href="/"><img src='./Images/search.png' alt="" /></a></li>
+          <li><a class='anchorTag' href="/login">Log In</a></li>
+          <li><img src='./Images/hamburger.png' onclick="toggleSidebar()" class='hamburger' alt="" /></li>
+          <!-- {/* This is the hidden navbar toggled after clicking Hamburger */} -->
+          <ul id='sidebar'>
+            <li><img src='./Images/close.png' onClick={toggleSidebar} alt="" /></li>
+            <li onclick="toggleSidebar()" >Platform</li>
+            <li onclick="toggleSidebar()" >Solutions</li>
+            <li onclick="toggleSidebar()" >Integration</li>
+            <li onclick="toggleSidebar()" >Start Building</li>
+            <li onclick="toggleSidebar()" >Docs</li>
+            <li onclick="toggleSidebar()" >Pricing</li>
+            <li onclick="toggleSidebar()" >Contact</li>
+          </ul>
+        </ul>
+      </nav>
+    <div class="mainContainer">
+        <!-- {/* The landing view */} -->
+        <div class="backImageHolder">
+            <div class="infoHolder">
+                <h1>Connect everything</h1>
+                <h1>Build anything</h1>
+                <p>Simplify is the essential platform for the delivery of exceptional and dynamic web experiences, without limitations.</p>
+            </div>
+
+            <!-- {/* Holds two buttons */} -->
+            <div class="buttonHolder">
+                <button class="deploy">Deploy to omify</button>
+                <button id="requestDemo">Request demo</button>
+            </div>
+
+            <!-- {/* Holds the Instructive video */} -->
+            <div class="videoHolder">
+            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/tJ95Q2ETMA4?si=6RZfjKA466Qm4zdL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="infoHolder">
+                <h1 class='font-black'>Simplify Composable Web Platform</h1>
+                <p>Streamlined orchestration, simplified and unified workflows, and real-time updates across infrastructure, workflows, websites and teams — all supported by Enterprise-grade security, services, and a world-class partner ecosystem. </p>
+            </div>
+        </div>
+
+        <!-- {/* CardHolder holds the informative cards */} -->
+        <div class="cardHolder">
+
+            <div class="card">
+                <span class='title' id='title-1'>Frontend Cloud</span>
+                <h3>Deploy faster</h3>
+                <p>Simplify Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
+                <a href="/">Learn More About Core <img src='./Images/forward-arrow.png' alt="" /></a>
+            </div>
+            <div class="card">
+                <span class='title' id='title-2'>Data Layer</span>
+                <h3>Unify all content</h3>
+                <p>Simplify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source.</p>
+                <a href="/">Learn More About Connect <img src='./Images/forward-arrow.png' alt="" /></a>
+            </div>
+            <div class="card">
+                <span class='title' id='title-3'>Visual Editor</span>
+                <h3>Click, edit, publish</h3>
+                <p>Simplify Create gives digital teams the freedom to autonomously perform content and website updates faster than ever before with an intuitive visual editor.</p>
+                <a href="/">Learn More About Create <img src='./Images/forward-arrow.png' alt="" /></a>
+            </div>
+        </div>
+        <!-- {/* The explore More button */} -->
+        <a class='expBtn' href="/">Explore the platform</a>
+
+        <!-- {/* Holds the enterprises associated with */} -->
+        <div class='enterpriseHolder'>
+            <h1 id='mobile-black' class='font-black'>Enterprises running on Simplify</h1>
+            <div class="logo-holder">
+                <img src='./Images/twilio.png' alt="" />
+                <img src='./Images/mattle.png' alt="" />
+                <img src='./Images/google.png' alt="" />
+                <img src='./Images/riot.png' alt="" />
+                <img src='./Images/uniliver.png' alt="" />
+                <img src='./Images/peloton.png' alt="" />
+            </div>
+        </div>
+
+
+        <!-- {/* Holds the Advertisement of the same website */} -->
+        <div class="advertise">
+            <div class="centerDiv">
+                <div class="center-div-left">
+                    <h2>Ship your</h2>
+                    <div class="iterable">
+                        <p id='changeable'>E-Commerce Website</p>
+                    </div>
+                    <h2>in just few clicks</h2>
+                    <p>Spin up a new project, or connect an existing, and explore rollbacks, CI/CD, edge functions, collaborative deploy previews, and more.</p>
+
+                    <button class="btnLeft">Read the docs</button>
+                    <button class="btnLeft">Developer Hub</button>
+                </div>
+                <div class="center-div-right">
+                    <div class="topRight">
+                        <ul>
+                            <li onclick="changeText('E-Commerce Site')" ><a href="#ecommerce"><img src='./Images/store.png' alt="" /> <p>E-Commerce Site</p></a></li>
+                            <li onclick="changeText('Ai-Chatbot')" ><a href="#aibot"><img src='./Images/sparkle.png' alt="" /><p>AI- Bot</p></a></li>
+                            <li onclick="changeText('Landing Page')" ><a href="#loadpage"><img src='./Images/folder.png' alt="" /><p>Landing Page</p></a></li>
+                            <li onclick="changeText('Edge Function')" ><a href="#edge"><img src='./Images/edge.png' alt="" /><p>Edge function</p></a></li>
+                        </ul>
+                    </div>
+                    <div class='contents'>
+
+                        <div id="ecommerce">
+                            <h2>Ecommerce</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspiciatis pariatur reprehenderit consectetur porro doloribus. Ullam vero ea in eum architecto hic quibusdam libero at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspiciatis pariatur reprehenderit consectetur porro doloribus. Ullam vero ea in eum architecto hic quibusdam libero at?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspiciatis pariatur reprehenfdnfklhfkhds;hnsifthish;shfihnsdifvhusiuhnpiderit consectetur porro doloribus. Ullam vero ea in eum architecto hic quibusdam libero at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspiciatis pariatur reprehenderit consectetur porro doloribus. Ullam vero ea in eum architecto hic quibusdam libero at? Odit aperiam eos esse ab non consectetur porro blanditiis vero voluptas nisi alias obcaecati iste nesciunt saepe eum, corporis minima quas perspiciatis? Atque illo fuga eius eligendi quibusdam quisquam quod aliquid quo qui distinctio, doloremque ullam doloribus sed, obcaecati, nisi rem? Magni minima sequi aut dolores id placeat quis cum! Aperiam modi, doloribus exercitationem esse sint perferendis possimus harum accusantium tempore repellendus, voluptatum doloremque! Ipsa quos enim neque optio ipsam ab, aliquam obcaecati.
+                            </p>
+                        </div>
+                        <hr />
+                        <div id="aibot">
+                            <h2>AI-BOT</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspiciatis pariatur reprehenderit consectetur porro doloribus. Ullam vero ea in eum architecto hic quibusdam libero at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspicialigendi quibusdam quisquam quod aliquid quo qui distinctio, doloremque ullam doloribus sed, obcaecati, nisi rem? Magni minima sequi aut dolores id placeat quis cum! Aperiam modi, doloribus exercitationem esse sint perferendis possimus harum accusantium tempore repellendus, voluptatum doloremque! Ipsa quos enim neque optio ipsam ab, aliquam obcaecati.
+                            </p>
+                        </div>
+                        <hr />
+                        <div id="loadpage">
+                            <h2>Loading Page</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspiciatis pariatur reprehenderit consectetur porro doloribus. Ullam vero ea in eum architecto hic quibusdam libero at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspicialigendi quibusdam quisquam quod aliquid quo qui distinctio, doloremque ullam doloribus sed, obcaecati, nisi rem? Magni minima sequi aut dolores id placeat quis cum! Aperiam modi, doloribus exercitationem esse sint perferendis possimus harum accusantium tempore repellendus, voluptatum doloremque! Ipsa quos enim neque optio ipsam ab, aliquam obcaecati.
+                            </p>
+                        </div>
+                        <hr />
+                        <div id="edge">
+                            <h2>Edge Function</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspiciatis pariatur reprehenderit consectetur porro doloribus. Ullam vero ea in eum architecto hic quibusdam libero at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit quis perspicialigendi quibusdam quisquam quod aliquid quo qui distinctio, doloremque ullam doloribus sed, obcaecati, nisi rem? Magni minima sequi aut dolores id placeat quis cum! Aperiam modi, doloribus exercitationem esse sint perferendis possimus harum accusantium tempore repellendus, voluptatum doloremque! Ipsa quos enim neque optio ipsam ab, aliquam obcaecati.
+                            </p>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <div class="addContainer">
+                <div>
+                    <h1>35M+</h1>
+                    <p>Websites deployed on Simplify</p>
+                </div>
+                <div>
+                    <h1>4M+</h1>
+                    <p>Developers</p>
+                </div>
+                <div>
+                    <h1>99.99%</h1>
+                    <p>Uptime SLA</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="customerStory">
+            <div class="customer-story-left">
+                <div class="customer-story-left-logo">
+                    <img src='./Images/Logo.jpeg' alt="" />
+                    <h1 class='font-black'>Mammut</h1>
+                </div>
+                <div class="customer-story-left-li">
+                    <li><img src='./Images/check.png' alt="" /><p>Increase in developer productivityIncrease in site reliability</p></li>
+                    <li><img src='./Images/check.png' alt="" /><p>Increase in site reliability</p></li>
+                    <li><img src='./Images/check.png' alt="" /><p>Quality on par with extremely high standards</p></li>
+                </div>
+            </div>
+            <div class="customer-story-right">
+                <p id='header'>Customer Story</p>
+                <p id="opinion">Mammut means quality - in brand and in technology</p>
+                <p id="content">Mammut came to Simplify because they needed a performant, interoperable Composable Web Platform that could deliver a best-in-class digital brand experience for their customers. They needed a partner that could keep their site reliable and performant during peak retail season and unexpected traffic spikes.</p>
+                <a href="/">View the story <img src='./Images/forward-arrow.png' alt="" /></a>
+            </div>
+        </div>
+        <h1 class='font-black'>Ready to try Simplify?</h1>
+        <button class='expBtn'>Request Demo</button>
+    </div>
+    <div class="footer-body">
+        <!-- {/* Footers Upper Navbar */} -->
+        <nav class="navbar">
+            <ul>
+                <li><img id='logo' src="./Images/Logo.jpeg" alt="" /></li>
+                <li><img src="./Images/Github.png" alt="" /></li>
+                <li><img src="./Images/youtube.png" alt="" /></li>
+                <li><img src="./Images/twitter.png" alt="" /></li>
+                <li><img src='./Images/LinkedIn.png' alt="" /></li>
+                <li><img src="./Images/messagee.png" alt="" /></li>
+            </ul>
+        </nav>
+
+        <!-- {/* Holds many options in desktop view */} -->
+        <div class="container fullView">
+          <ul>
+            <li><h2>Why Omlify</h2></li>
+            <li><a href="/">Customers</a></li>
+            <li><a href="/">Composable web platform</a></li>
+            <li><a href="/">Security</a></li>
+            <li><a href="/">Agency partner program</a></li>
+            <li><a href="/">Technology partner program</a></li>
+          </ul>
+          <ul>
+            <li><h2>Products</h2></li>
+            <li><a href="/">Composable web Platform</a></li>
+            <li><a href="/">Netlify Connect</a></li>
+            <li><a href="/">Netlify Core</a></li>
+            <li><a href="/">Netlify Create</a></li>
+            <li><a href="/">Netlify SDK</a></li>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Changelog</a></li>
+            <li><a href="/">Add-ons +</a></li>
+          </ul>
+          <ul>
+            <li><h2>Explore</h2></li>
+            <li><a href="/">Docs</a></li>
+            <li><a href="/">Integration</a></li>
+            <li><a href="/">Jamstack Book</a></li>
+            <li><a href="/">Community</a></li>
+            <li><a href="/">Resources & Guides</a></li>
+            <li><a href="/">Remotely Interesting</a></li>
+            <li><a href="/">Technologies +</a></li>
+          </ul>
+          <ul>
+            <li><h2>Company</h2></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Careers</a></li>
+            <li><a href="/">Compose Conference</a></li>
+            <li><a href="/">Press</a></li>
+            <li><a href="/">Jamstack Fund</a></li>
+            <li><a href="/">Natlify Store</a></li>
+            <li><a href="/">Sustainability</a></li>
+          </ul>
+          <ul>
+            <li><h2>Contact Us</h2></li>
+            <li><a href="/">Sales</a></li>
+            <li><a href="/">Support</a></li>
+            <li><a href="/">Status</a></li>
+            <li><a href="/">Forums</a></li>
+            <li><a href="/">Hire an Agency</a></li>
+          </ul>
+        </div>
+
+        <div class="drop-container">
+          <ul>
+            <li onclick="toggleFirst('first')">
+              <div>
+                Why Omlify
+                <img src='./Images/downArrow.png' alt="" />
+              </div>
+              <ul id='first' class='hidden-drop'>
+                <li>Customers</li>
+                <li>Composable Web Platform</li>
+                <li>Security</li>
+                <li>Agency Partner Program</li>
+                <li>Technology Partner Progrm</li>
+              </ul>
+            </li>
+            <li  onclick="toggleFirst('second')"><div>
+               Products
+              <img src='./Images/downArrow.png' alt="" />
+            </div>
+              <ul id='second' class="hidden-drop">
+                <li>Composable Web Platform</li>
+                <li>Netlify Connect</li>
+                <li>Netlify Core</li>
+                <li>Netlify Create</li>
+                <li>Netlify SDK</li>
+                <li>Pricing</li>
+                <li>changelog</li>
+                <li>Add-ons +</li>
+              </ul>
+            </li>
+            <li  onclick="toggleFirst('third')"><div>
+              Explore
+              <img src='./Images/downArrow.png' alt="" />
+            </div>
+              <ul id='third' class="hidden-drop">
+                <li>Docs</li>
+                <li>Integration</li>
+                <li>Jamstack Book</li>
+                <li>community</li>
+                <li>Resources & Guides</li>
+                <li>Remotely Interesting</li>
+                <li>Technologies +</li>
+              </ul>
+            </li>
+            <li  onclick="toggleFirst('fourth')"><div>
+              Company
+              <img src='./Images/downArrow.png' alt="" />
+            </div>
+              <ul id='fourth' class="hidden-drop">
+                <li>Blog</li>
+                <li>About</li>
+                <li>Careers</li>
+                <li>Compose Conference</li>
+                <li>Press</li>
+                <li>Jamstack Fund</li>
+                <li>Netlify Store</li>
+                <li>Sustainability</li>
+              </ul>
+            </li>
+            <li  onclick="toggleFirst('fifth')"><div>
+              Contact Us
+              <img src='./Images/downArrow.png' alt="" />
+            </div>
+              <ul id='fifth' class="hidden-drop">
+                <li>Sales</li>
+                <li>Support</li>
+                <li>Status</li>
+                <li>Forums</li>
+                <li>Hire an Agency</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="feedback">
+          <p>Stay up to date with Omlify news</p>
+          <div class="inputContainer">
+            <input type="text" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+
+        <div class="final">
+          <ul>
+            <li><a href="/">Trust Center</a></li>
+            <li><a href="/">Privacy</a></li>
+            <li><a href="/">GDPR/CCPA</a></li>
+            <li><a href="/">Abuse</a></li>
+            <li><a href="/">Cookie Setting</a></li>
+            <li>@2024 Omlify</li>
+          </ul>
+        </div>
+    </div>
+</body>
+</html>
